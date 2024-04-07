@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+    <name>ZipPage</name>
+    <author>Sébastien LHUILLIER</author>
+    <creationDate>Avril 2024</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail>sebastien.lhuillier+joomla@gmail.com</authorEmail>
+    <authorUrl>www.sebastien-lhuillier.com</authorUrl>
+    <version>1.0</version>
+    <description>
+       Zippe tous les fichiers LOCAUX de la page. Le classement des fichier dans l'archive s'appuie sur la propriété data-type des liens hypertexte. En acs d'absence, les fichiers sont en vrac dans le dossier VRAC.
+    </description>
+    <files>
+        <filename>zippage.xml</filename>
+        <filename plugin="zippage">zippage.php</filename>
+    </files>
+</extension>

@@ -1,0 +1,9 @@
+.zip-download a{
+	color:red;
+}
+
+.zip-download {
+  float: right;
+  border: 1px dotted red;
+  padding: 1%;
+}
